@@ -1,0 +1,50 @@
+#content{
+    margin: auto;
+    width: 70%;
+    background: red;
+}
+
+#content h1{
+    height: 75px;
+}
+
+#banner{
+    width: 100%;
+    Height: 300px;
+    margin-bottom: 30px;
+    background-image: url("../images/cars08.jpg");
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#quoteblock{
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+}
+
+#quoteblock img{
+    float: left;
+    width: 100%;
+    margin: auto;    
+}
+
+#quoteblock blockquote{
+    height: 100px;
+    margin: auto;
+    display: inline-block;
+}
+
+#quoteblock p{
+    height: 200px;
+    width: 100%;
+    text-align: right;
+    display: inline-block;
+}
