@@ -1,7 +1,8 @@
 #content{
     margin: auto;
     width: 70%;
-    background: red;
+    background: darkgray;
+    min-width: 300px;
 }
 
 #content h1{
@@ -24,27 +25,43 @@
     max-height: 100%;
 }
 
-#quoteblock{
-    width: 30%;
-    height: 500px;
+#quoteblocks{
+    margin: 0 auto;
+    display: block;
+    width: 98%;
+    background-color: purple;
+
+    padding-bottom: 5px;
+}
+
+#col1, #col2, #col3{
+    width: 300px;
     display: inline-block;
+    margin: 0 auto;
+
+    background: red;
+}
+
+#quoteblock{
+    display: inline-block;
+    position: center;
+    margin: 0 auto;
+    background-color: yellow;
+    
 }
 
 #quoteblock img{
-    float: left;
     width: 100%;
-    margin: auto;    
+    margin: 0 auto;   
 }
 
 #quoteblock blockquote{
     height: 100px;
-    margin: auto;
-    display: inline-block;
+    margin: 5px;
 }
 
 #quoteblock p{
-    height: 200px;
+    height: auto;
     width: 100%;
     text-align: right;
-    display: inline-block;
 }
