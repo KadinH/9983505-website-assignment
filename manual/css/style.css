@@ -116,15 +116,18 @@
 
 }
 
-@media screen and (min-width:481px) and (max-width:768px){
+@media screen and (min-width:481px) and (max-width:767px){
     #content{
         width: 98%;
-        margin-right: 30px;
-
     }
     #banner{
-        margin: auto;
         width: 100%;
+    }
+    #quoteblock{
+        width: 450px;
+    }
+    #quoteblock img{
+        width: 420px;
     }
 }
 
