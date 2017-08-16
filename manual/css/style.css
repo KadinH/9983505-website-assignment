@@ -113,6 +113,7 @@
 }
 
 @media screen and (min-width:481px) and (max-width:767px){
+
     #content{
         width: 98%;
     }
@@ -129,6 +130,7 @@
 
 /*Smartphone rules - landscape */
 @media screen and (min-width:321px) and (max-width:480px){
+
     #content{
         width: 100%;
         background: #FFF;
@@ -143,6 +145,7 @@
 
 /*Smartphone rules - portrait*/
 @media screen and (min-width:0px) and (max-width:320px){
+    
     #content{
         width: 100%;
         background: #FFF;
